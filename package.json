@@ -2,16 +2,42 @@
   "name": "postapl-remove-empty",
   "version": "1.0.0",
   "description": "PostAPL plugin to remove empty values",
+  "keywords": [
+    "postapl",
+    "postapl-plugin",
+    "apl",
+    "alexa",
+    "alexa presentation language",
+    "remove",
+    "empty"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
-  "keywords": [
-    "postapl-plugin"
-  ],
-  "author": "Mark Tucker",
+  "author": "Mark Tucker <@marktucker>",
   "license": "MIT",
-  "dependencies": {
-    "postapl": "file:../postapl"
+  "repository": "postapl/postapl-remove-empty",
+  "engines": {
+    "node": ">=12.0"
+  },
+  "peerDependencies": {
+    "postapl": "^0.1.0"
+  },
+  "devDependencies": {
+    "clean-publish": "^3.4.2",
+    "jest": "^27.3.1",
+    "postapl": "^0.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    }
+  },
+  "clean-publish": {
+    "cleanDocs": true
   }
 }
