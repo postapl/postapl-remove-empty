@@ -1,0 +1,17 @@
+{
+  "name": "postapl-remove-empty",
+  "version": "1.0.0",
+  "description": "PostAPL plugin to remove empty values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postapl-plugin"
+  ],
+  "author": "Mark Tucker",
+  "license": "MIT",
+  "dependencies": {
+    "postapl": "file:../postapl"
+  }
+}
