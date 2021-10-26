@@ -22,12 +22,12 @@
     "node": ">=12.0"
   },
   "peerDependencies": {
-    "postapl": "^0.1.0"
+    "postapl": "^1.0.0"
   },
   "devDependencies": {
     "clean-publish": "^3.4.2",
     "jest": "^27.3.1",
-    "postapl": "^0.1.0"
+    "postapl": "^1.1.0"
   },
   "jest": {
     "testEnvironment": "node",
