@@ -1,6 +1,6 @@
 {
   "name": "postapl-remove-empty",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PostAPL plugin to remove empty values",
   "keywords": [
     "postapl",
